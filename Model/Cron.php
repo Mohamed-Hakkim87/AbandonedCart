@@ -1,15 +1,5 @@
 <?php
-/**
- * Class Cron
- *
- * PHP version 7
- *
- * @category Risecommerce
- * @package  Risecommerce_AbandonedCart
- * @author   Risecommerce <magento@risecommerce.com>
- * @license  https://www.risecommerce.com  Open Software License (OSL 3.0)
- * @link     https://www.risecommerce.com
- */
+
 namespace Hikmadh\AbandonedCart\Model;
 
 class Cron
@@ -35,13 +25,7 @@ class Cron
      */
     public $cronCollection;
 
-    /**
-     * Cron constructor.
-     *
-     * @param Sales\QuoteFactory                    $quoteFactory   quoteFactory
-     * @param \Risecommerce\AbandonedCart\Helper\Data $helper         helper
-     * @param ResourceModel\Cron\CollectionFactory  $cronCollection cronCollection
-     */
+
     public function __construct(
         \Hikmadh\AbandonedCart\Model\Sales\QuoteFactory $quoteFactory,
         \Hikmadh\AbandonedCart\Helper\Data $helper,
