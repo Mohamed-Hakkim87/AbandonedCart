@@ -1,15 +1,5 @@
 <?php
-/**
- * Class Quote
- *
- * PHP version 7
- *
- * @category Risecommerce
- * @package  Risecommerce_AbandonedCart
- * @author   Risecommerce <magento@risecommerce.com>
- * @license  https://www.risecommerce.com  Open Software License (OSL 3.0)
- * @link     https://www.risecommerce.com
- */
+
 namespace Hikmadh\AbandonedCart\Model\Sales;
 
 use Hikmadh\AbandonedCart\Model\ResourceModel\Campaign;
@@ -114,24 +104,7 @@ class Quote
 
     public $inlineTranslation;
 
-    /**
-     * Quote constructor.
-     *
-     * @param \Risecommerce\AbandonedCart\Model\AbandonedFactory                          $abandonedFactory           abandonedFactory
-     * @param Campaign\CollectionFactory                                                $campaignCollection         campaignCollection
-     * @param Campaign                                                                  $campaignResource           campaignResource
-     * @param \Risecommerce\AbandonedCart\Model\CampaignFactory                           $campaignFactory            campaignFactory
-     * @param \Risecommerce\AbandonedCart\Helper\Data                                     $helper                     helper
-     * @param \Risecommerce\AbandonedCart\Model\ResourceModel\Abandoned\CollectionFactory $abandonedCollectionFactory abandonedCollectionFactory
-     * @param \Risecommerce\AbandonedCart\Model\ResourceModel\Abandoned                   $abandonedResource          abandonedResource
-     * @param \Magento\Store\Model\StoreManagerInterface                                $storeManager               storeManager
-     * @param \Magento\Framework\App\Config\ScopeConfigInterface                        $scopeConfig                scopeConfig
-     * @param \Magento\Quote\Model\ResourceModel\Quote\CollectionFactory                $quoteCollectionFactory     quoteCollectionFactory
-     * @param \Magento\Framework\Stdlib\DateTime\TimezoneInterface                      $timezone                   timezone
-     * @param \Magento\Framework\Mail\Template\TransportBuilder                         $transportBuilder           transportBuilder
-     * @param \Magento\Framework\Translate\Inline\StateInterface                        $inlineTranslation          inlineTranslation,
-     * @param \Magento\Framework\View\Element\Template                                  $frameworkTemplate          frameworkTemplate
-     */
+
     public function __construct(
         \Risecommerce\AbandonedCart\Model\AbandonedFactory $abandonedFactory,
         \Risecommerce\AbandonedCart\Model\ResourceModel\Campaign\CollectionFactory $campaignCollection,
